@@ -26,8 +26,8 @@ const chatAi = () => {
                 requests. ChatGPT is a sibling model to InstructGPT, which is trained to follow an instruction in a prompt and provide a detailed response.
                 This user interface resembles the ChatGPT app. You Communicate with an advanced GPT 3 model API, and have the ability to ask to the AI for help with coding and problem solving in many programming languages.
                 </p>
-                <button className='px-8 py-2 mt-4 mr-8'><a href="https://codex-chat-ai-tmorriso.vercel.app/" target="_blank">Demo</a></button>
-                <button className='px-8 py-2 mt-4 mr-8'><a href="https://github.com/tmorriso93/codex" target="_blank">Code</a></button>
+                <button className='px-8 py-2 mt-4 mr-8'><a href="https://codex-chat-ai-tmorriso.vercel.app/" target="_blank" rel="noreferrer" >Demo</a></button>
+                <button className='px-8 py-2 mt-4 mr-8'><a href="https://github.com/tmorriso93/codex" target="_blank" rel="noreferrer" >Code</a></button>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded'>
                 <div className='p-2'>

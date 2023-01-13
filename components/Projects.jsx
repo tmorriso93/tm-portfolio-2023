@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import imgHolder from '../public/assets/projects/img-holder00.webp'
 import chataiImg from '../public/assets/projects/chat-ai00.png'
 import bankImg from '../public/assets/projects/modern-bank.png'
 import aiImgGen from '../public/assets/projects/ai-img-generator.png'

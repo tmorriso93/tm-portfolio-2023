@@ -26,8 +26,8 @@ const modernBankPage = () => {
                    quality assets and gradients, business stats and call-to-action buttons.
 
                 </p>
-                <button className='px-8 py-2 mt-4 mr-8'><a href='https://tmorrisomodernbankapp.netlify.app/' target="_blank">Demo</a></button>
-                <button className='px-8 py-2 mt-4 mr-8'><a href="https://github.com/tmorriso93/modernbankingapp" target="_blank">Code</a></button>
+                <button className='px-8 py-2 mt-4 mr-8'><a href='https://tmorrisomodernbankapp.netlify.app/' target="_blank" rel="noreferrer" >Demo</a></button>
+                <button className='px-8 py-2 mt-4 mr-8'><a href="https://github.com/tmorriso93/modernbankingapp" target="_blank" rel="noreferrer" >Code</a></button>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded'>
                 <div className='p-2'>

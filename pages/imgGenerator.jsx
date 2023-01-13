@@ -25,8 +25,8 @@ const imgGenerator = () => {
                    This web application uses the Open AI API to generate images by entering text and waiting a few seconds for the AI to generate an image based on what you typed.
                    This creates an original image, generated images can have a size of 256x256(sm), 512x512(md), or 1024x1024(lg) pixels.
                 </p>
-                <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-                <button className='px-8 py-2 mt-4 mr-8'><a href="https://github.com/tmorriso93/ai-image-generator" target="_blank">Code</a></button>
+                <button className='px-8 py-2 mt-4 mr-8'><a href="https://ai-image-generator-o7nt.onrender.com/" taget="_blank" rel="noreferrer" >Demo</a></button>
+                <button className='px-8 py-2 mt-4 mr-8'><a href="https://github.com/tmorriso93/ai-image-generator" target="_blank" rel="noreferrer" >Code</a></button>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded'>
                 <div className='p-2'>

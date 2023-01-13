@@ -14,7 +14,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                                 src='/../public/assets/skills/html-5.png' 
-                                alt='/' 
+                                alt='html logo' 
                                 width='45' 
                                 height='45' 
                             />
@@ -29,7 +29,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                                 src='/../public/assets/skills/css-3.png' 
-                                alt='/' 
+                                alt='css logo' 
                                 width='45' 
                                 height='45' 
                             />
@@ -44,7 +44,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                                 src='/../public/assets/skills/js.png' 
-                                alt='/' 
+                                alt='javascript logo' 
                                 width='45' 
                                 height='45' 
                             />
@@ -59,7 +59,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                                 src='/../public/assets/skills/physics.png' 
-                                alt='/' 
+                                alt='react logo' 
                                 width='45' 
                                 height='45' 
                             />
@@ -74,7 +74,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                                 src='/../public/assets/skills/nodejs.png' 
-                                alt='/' 
+                                alt='nodejs logo' 
                                 width='45' 
                                 height='45' 
                             />
@@ -89,7 +89,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                                 src='/../public/assets/skills/mysql.png' 
-                                alt='/' 
+                                alt='mysql logo' 
                                 width='45' 
                                 height='45' 
                             />
@@ -104,7 +104,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                                 src='/../public/assets/skills/bootstrap.png' 
-                                alt='/' 
+                                alt='bootstrap logo' 
                                 width='45' 
                                 height='45' 
                             />
@@ -119,7 +119,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                                 src='/../public/assets/skills/figma.png' 
-                                alt='/' 
+                                alt='figma logo' 
                                 width='45' 
                                 height='45' 
                             />
@@ -134,7 +134,7 @@ const Skills = () => {
                         <div className='m-auto'>
                             <Image 
                                 src='/../public/assets/skills/git.png' 
-                                alt='/' 
+                                alt='github logo' 
                                 width='45' 
                                 height='45' 
                             />

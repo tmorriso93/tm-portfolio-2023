@@ -1,5 +1,4 @@
 import React from 'react'
-import imgHolder from '../public/assets/projects/img-holder00.webp'
 import brazilBlog from '../public/assets/projects/blog-site.png'
 import Image from 'next/image'
 import {RiRadioButtonFill} from 'react-icons/ri'
@@ -25,8 +24,8 @@ const property = () => {
                    This project is a Blog about Brazil and some of the best places to visit while in the country. It's made with React and Tailwind on the front end and Sanity IO on the back end for my database and storage.
                    This is a Full Stack application that's fully responsive and looks great on all devices. Each Blog post lets you know who wrote it and the time and date it was posted.
                 </p>
-                <button className='px-8 py-2 mt-4 mr-8'><a href="https://tmorrisosanityblog.netlify.app/" target="_blank">Demo</a></button>
-                <button className='px-8 py-2 mt-4 mr-8'><a href="https://github.com/tmorriso93/tm-portfolio-2023" target="_blank">Code</a></button>
+                <button className='px-8 py-2 mt-4 mr-8'><a href="https://tmorrisosanityblog.netlify.app/" target="_blank" rel="noreferrer" >Demo</a></button>
+                <button className='px-8 py-2 mt-4 mr-8'><a href="https://github.com/tmorriso93/tm-portfolio-2023" target="_blank" rel="noreferrer" >Code</a></button>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded'>
                 <div className='p-2'>

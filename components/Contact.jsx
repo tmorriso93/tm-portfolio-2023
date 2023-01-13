@@ -1,9 +1,11 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
+import mailme from '../public/assets/projects/mailme.jpg'
 
 const Contact = () => {
   return (
@@ -16,7 +18,8 @@ const Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full rounded-xl'>
                         <div>
-                        <img className='rounded-xl hover:scale-105 ease-in duration-300 md:w-4/5 sm:w-2/3 ' src="https://images.pexels.com/photos/6005305/pexels-photo-6005305.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="/" width="" />
+                        {/* <Image className='rounded-xl hover:scale-105 ease-in duration-300 md:w-4/5 sm:w-2/3 ' src="https://images.pexels.com/photos/6005305/pexels-photo-6005305.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="/" width="" /> */}
+                        <Image className='rounded-xl hover:scale-105 ease-in duration-300 md:w-4/5 sm:w-2/3' src={mailme} alt="mail image" />
                         </div>
                         <div className=''>
                             <h2 className='py-2'>Tevin Morrison</h2>
