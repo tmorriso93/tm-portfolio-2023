@@ -5,6 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'; 
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { useRouter } from 'next/router'
+import logo from '../public/assets/projects/t-logo01.webp'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -88,7 +89,8 @@ const Navbar = () => {
                     <div className='flex w-full items-center justify-between'>
                         <Link href='/'>
                         <Image 
-                            src='/../public/assets/t-logo01.webp' 
+                            // 
+                            src={logo}
                             alt='/' 
                             width='60' 
                             height='40' 
