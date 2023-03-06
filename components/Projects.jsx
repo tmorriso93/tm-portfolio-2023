@@ -6,6 +6,7 @@ import chataiImg from '../public/assets/projects/chat-ai00.png'
 import bankImg from '../public/assets/projects/modern-bank.png'
 import aiImgGen from '../public/assets/projects/ai-img-generator.png'
 import brazilBlog from '../public/assets/projects/blog-site.png'
+import feedbackApp from '../public/assets/projects/feedback-app.png'
 
 const Projects = () => {
   return (
@@ -15,6 +16,7 @@ const Projects = () => {
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
 
+            <ProjectItem title="Feedback Application" backgroundImg={feedbackApp} projectUrl='/feedbackApp' />
             <ProjectItem title="Fullstack Blog Application" backgroundImg={brazilBlog} projectUrl='/brazilBlog' />
             <ProjectItem title="Chat Artificial Intelligence " backgroundImg={chataiImg} projectUrl='/chatAi' />
             <ProjectItem title="Modern Bank Landing Page" backgroundImg={bankImg} projectUrl='/modernBank' />
