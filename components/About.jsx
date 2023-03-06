@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import laptopoutside from '../public/assets/projects/laptopoutside.jpg'
+import folioImg from "../public/assets/projects/folioImg.png"
 
 const About = () => {
   return (
@@ -25,8 +25,8 @@ const About = () => {
                     // src="https://images.pexels.com/photos/102061/pexels-photo-102061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     // width="367"
                    
-                    src={laptopoutside}
-                    alt="laptop on table" 
+                    src={folioImg}
+                    alt="Profile Picture" 
                 />
             </div>
         </div>
