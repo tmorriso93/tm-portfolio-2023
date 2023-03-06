@@ -1,5 +1,5 @@
 import React from 'react'
-import feedbackApp from '../public/assets/projects/feedbackApp.png'
+import feedbackApp from '../public/assets/projects/feedback-app.png'
 import Image from 'next/image'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
