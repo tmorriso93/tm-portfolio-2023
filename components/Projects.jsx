@@ -7,6 +7,7 @@ import bankImg from '../public/assets/projects/modern-bank.png'
 import aiImgGen from '../public/assets/projects/ai-img-generator.png'
 import brazilBlog from '../public/assets/projects/blog-site.png'
 import feedbackApp from '../public/assets/projects/feedback-app.png'
+import githubFinder from '../public/assets/projects/github-finder.png'
 
 const Projects = () => {
   return (
@@ -18,7 +19,8 @@ const Projects = () => {
 
             <ProjectItem title="Feedback Application" backgroundImg={feedbackApp} projectUrl='/feedbackApp' />
             <ProjectItem title="Fullstack Blog Application" backgroundImg={brazilBlog} projectUrl='/brazilBlog' />
-            <ProjectItem title="Chat Artificial Intelligence " backgroundImg={chataiImg} projectUrl='/chatAi' />
+            {/* <ProjectItem title="Chat Artificial Intelligence " backgroundImg={chataiImg} projectUrl='/chatAi' /> */}
+            <ProjectItem title="Github Finder" backgroundImg={githubFinder} projectUrl='/githubFinder' />
             <ProjectItem title="Modern Bank Landing Page" backgroundImg={bankImg} projectUrl='/modernBank' />
             <ProjectItem title="Artificial Intelligence Image Generator" backgroundImg={aiImgGen} projectUrl='/imgGenerator' />
             
