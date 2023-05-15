@@ -3,10 +3,10 @@ import Link from 'next/link';
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import bankImg from '../public/assets/projects/modern-bank.png'
-import brazilBlog from '../public/assets/projects/blog-site.png'
 import feedbackApp from '../public/assets/projects/feedback-app.png'
 import githubFinder from '../public/assets/projects/github-finder.png'
 import keywordEx from '../public/assets/projects/keywordExtractor.png'
+import aiShirtImgGen from '../public/assets/projects/ai-shirt-gen.png'
 
 const Projects = () => {
   return (
@@ -17,7 +17,7 @@ const Projects = () => {
             <div className='grid md:grid-cols-2 gap-8'>
 
             <ProjectItem title="Feedback Application" backgroundImg={feedbackApp} projectUrl='/feedbackApp' />
-            <ProjectItem title="Fullstack Blog Application" backgroundImg={brazilBlog} projectUrl='/brazilBlog' />
+            <ProjectItem title="AI 3D Logo Generator" backgroundImg={aiShirtImgGen} projectUrl='/aiImgShirtGenerator' />
             <ProjectItem title="Github Finder" backgroundImg={githubFinder} projectUrl='/githubFinder' />
             <ProjectItem title="Modern Bank Landing Page" backgroundImg={bankImg} projectUrl='/modernBank' />
             <ProjectItem title="Keyword Extractor SAAS" backgroundImg={keywordEx} projectUrl='/keywordExtractor' />
