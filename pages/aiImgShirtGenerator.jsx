@@ -21,7 +21,7 @@ const property = () => {
                 <p>Project</p>
                 <h2>Overview</h2>
                 <p>
-                3D AI T-Shirt Logo/Design Generator. Use AI(OpenAI API) to create Logos and T-shirt designs or upload a custom logo or image and see how it looks on a 3D T-Shirt model.
+                3D AI T-Shirt Logo/Design Generator. Use AI(OpenAI API) to create Logos, T-shirt designs, or just upload a custom logo file and see how it looks on a 3D T-Shirt model.
                 You can also change the colour of the shirt. This application was made with React, ThreeJS, Tailwind and Framer Motion.
                 </p>
                 <button className='px-8 py-2 mt-4 mr-8'><a href="https://3d-ai-shirt-generator-app-git-main-tmorriso93.vercel.app/" target="_blank" rel="noreferrer" >Demo</a></button>
