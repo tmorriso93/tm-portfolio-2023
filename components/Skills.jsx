@@ -9,6 +9,8 @@ import mysqlLogo from '../public/assets/skills/mysql.png'
 import figmaLogo from '../public/assets/skills/figma.png'
 import gitLogo from '../public/assets/skills/git.png'
 import bsLogo from '../public/assets/skills/bootstrap.png'
+import nextLogo from '../public/assets/skills/nextlogo00.png'
+import mongodb from '../public/assets/skills/mongodb001.png'
 
 
 const Skills = () => {
@@ -80,6 +82,22 @@ const Skills = () => {
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>REACT</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image 
+                                // src='/../public/assets/skills/physics.png' 
+                                src={nextLogo}
+                                alt='react logo' 
+                                width='55' 
+                                height='55' 
+                            />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>NEXTJS</h3>
                         </div>
                     </div>
                 </div>
@@ -160,6 +178,22 @@ const Skills = () => {
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>GIT</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='m-auto'>
+                            <Image 
+                               
+                                src={mongodb}
+                                alt='github logo' 
+                                width='60' 
+                                height='60' 
+                            />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>MONGODB</h3>
                         </div>
                     </div>
                 </div>
