@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import bankImg from '../public/assets/projects/modern-bank.png'
+import restaurant from '../public/assets/projects/restaurant02.png'
 import githubFinder from '../public/assets/projects/github-finder.png'
 import ecomstore from '../public/assets/projects/ecomstore.png'
 import keywordEx from '../public/assets/projects/keywordExtractor.png'
@@ -19,7 +19,7 @@ const Projects = () => {
             {/* <ProjectItem title="Feedback Application" backgroundImg={feedbackApp} projectUrl='/feedbackApp' /> */}
             <ProjectItem title="Github Finder" backgroundImg={githubFinder} projectUrl='/githubFinder' />
             <ProjectItem title="Full Stack E-Commerce Store" backgroundImg={ecomstore} projectUrl='/ecomStore' />
-            <ProjectItem title="Modern Bank Landing Page" backgroundImg={bankImg} projectUrl='/modernBank' />
+            <ProjectItem title="Pizza Restaurant" backgroundImg={restaurant} projectUrl='/restaurant' />
             <ProjectItem title="Keyword Extractor SAAS" backgroundImg={keywordEx} projectUrl='/keywordExtractor' />
             
 

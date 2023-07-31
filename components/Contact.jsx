@@ -29,12 +29,16 @@ const Contact = () => {
                         <div>
                         <p className='uppercase pt-8'>Connect With Me</p>
                         <div className='flex items-center justify-between py-4'>
+                        <Link href="https://www.linkedin.com/in/tevin-morrison/" target="_blank">
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaLinkedinIn />
                     </div>
+                    </Link>
+                    <Link href="https://github.com/tmorriso93" target="_blank">
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaGithub />
                     </div>
+                    </Link>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineMail />
                     </div>

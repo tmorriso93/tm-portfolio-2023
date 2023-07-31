@@ -11,9 +11,9 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-[#db4b4b]'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-gray-600'>
-                    I'm Tevin Morrison from Toronto, Canada. I specialize in building websites and applications using Front End Technologies
-                    like React & Javascript. I work as a Freelance front end developer, and have been doing so for the past 2 years. My clients
-                    have included small businesses, startups, and nonprofit organizations.
+                Hello, I'm Tevin Morrison, a passionate Front End Developer hailing from Toronto, Canada. With a strong focus on crafting seamless and engaging user experiences,
+                 I specialize in building cutting-edge websites and applications using the power of React and Javascript. As a seasoned Freelancer, I've dedicated the last 3 years
+                  to honing my skills and collaborating with a diverse range of clients, including small businesses, startups, and nonprofit organizations, to bring their digital visions to life.
                 </p>
                 <Link href="/#projects">
                 <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my projects</p>
