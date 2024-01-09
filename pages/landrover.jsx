@@ -3,14 +3,14 @@ import Image from 'next/image'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 // import keywordEx from '../public/assets/projects/keywordExtractor.png'
-import landrover from '../public/assets/projects/landroversite001'
+import landroverImg from '../public/assets/projects/landroversite001'
 
 const landrover = () => {
   return (
     <div className='w-full'>
         <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
             <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/60 z-10' />
-            <Image className='absolute z-1' layout='fill' objectFit='cover' src={landrover} alt='/' />
+            <Image className='absolute z-1' layout='fill' objectFit='cover' src={landroverImg} alt='/' />
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
                 <h2 className='py-2'>LANDROVER CAR DEALERSHIP</h2>
                 <h3 className=''>WORDPRESS | POLICARO LANDROVER CAR DEALERSHIP</h3>
