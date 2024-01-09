@@ -3,10 +3,10 @@ import Link from 'next/link';
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import restaurant from '../public/assets/projects/restaurant02.png'
-import githubFinder from '../public/assets/projects/github-finder.png'
+// import githubFinder from '../public/assets/projects/github-finder.png'
 import ecomstore from '../public/assets/projects/ecomstore.png'
-import keywordEx from '../public/assets/projects/keywordExtractor.png'
-import bmwlandingpage from '../public/assets/projects/personalbmwlandingpage.png'
+// import keywordEx from '../public/assets/projects/keywordExtractor.png'
+// import bmwlandingpage from '../public/assets/projects/personalbmwlandingpage.png'
 import landrover from '../public/assets/projects/landroversite001.png'
 import bmw from '../public/assets/projects/bmwsite001.png'
 
