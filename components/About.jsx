@@ -11,9 +11,11 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-[#db4b4b]'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-gray-600'>
-                Hello, I'm Tevin Morrison, a passionate Front End Developer hailing from Toronto, Canada. With a strong focus on crafting seamless and engaging user experiences,
-                 I specialize in building cutting-edge websites and applications using the power of React and Javascript. As a seasoned Freelancer, I've dedicated the last 3 years
-                  to honing my skills and collaborating with a diverse range of clients, including small businesses, startups, and nonprofit organizations, to bring their digital visions to life.
+                Hello, I'm Tevin Morrison, a passionate Front End Developer hailing from Toronto, Canada. With a strong focus on crafting seamless and engaging user experiences, I specialize in building cutting-edge websites and applications using the power of React and Javascript.
+
+                In addition to my expertise, I currently manage 8 websites for popular car dealerships in Ontario, Canada. Some of these include Porsche, BMW, Land Rover, and Lexus, among others. These websites collectively generate tens of thousands of visitors per month and contribute to millions of dollars in sales each year.
+
+                As a seasoned Freelancer, I've dedicated the last 3 years to honing my skills and collaborating with a diverse range of clients, including small businesses, startups, and nonprofit organizations, to bring their digital visions to life.
                 </p>
                 <Link href="/#projects">
                 <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my projects</p>
