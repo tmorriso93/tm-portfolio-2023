@@ -3,7 +3,7 @@ import Image from 'next/image'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 // import keywordEx from '../public/assets/projects/keywordExtractor.png'
-import landroverImg from '../public/assets/projects/landroversite001'
+import landroverImg from '../public/assets/projects/landroversite001.png'
 
 const landrover = () => {
   return (

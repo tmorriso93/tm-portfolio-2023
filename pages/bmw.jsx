@@ -1,5 +1,5 @@
 import React from 'react'
-import bmwImg from '../public/assets/projects/bmwsite001'
+import bmwImg from '../public/assets/projects/bmwsite001.png'
 import Image from 'next/image'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
