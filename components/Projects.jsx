@@ -3,7 +3,7 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import restaurant from '../public/assets/projects/restaurant02.png'
-import ecomstore from '../public/assets/projects/ecomstore.png'
+import wordpilotai from '../public/assets/projects/wordpilotai-saas.png';
 import landrover from '../public/assets/projects/landroversite001.png'
 import bmw from '../public/assets/projects/bmwsite001.png'
 
@@ -16,13 +16,10 @@ const Projects = () => {
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
  
-            {/* <ProjectItem title="Feedback Application" backgroundImg={feedbackApp} projectUrl='/feedbackApp' /> */}
-            {/* <ProjectItem title="Github Finder" backgroundImg={githubFinder} projectUrl='/githubFinder' /> */}
-            <ProjectItem title="POLICARO BMW" backgroundImg={bmw} projectUrl='/bmw' />
-            <ProjectItem title="Full Stack E-Commerce Store" backgroundImg={ecomstore} projectUrl='/ecomStore' />
-            <ProjectItem title="Pizza Restaurant" backgroundImg={restaurant} projectUrl='/restaurant' />
-            {/* <ProjectItem title="Keyword Extractor SAAS" backgroundImg={keywordEx} projectUrl='/keywordExtractor' /> */}
-            <ProjectItem title="POLICARO LANDROVER" backgroundImg={landrover} projectUrl='/landrover' />
+            <ProjectItem title="WORDPILOT AI" tech="FULLSTACK APP BUILT WITH NEXTJS" backgroundImg={wordpilotai} projectUrl='/wordpilotai' />
+            <ProjectItem title="POLICARO BMW" tech="BUILT WITH WORDPRESS" backgroundImg={bmw} projectUrl='/bmw' />
+            <ProjectItem title="Pizza Restaurant" tech="BUILT WITH HTML & CSS" backgroundImg={restaurant} projectUrl='/restaurant' />
+            {/* <ProjectItem title="POLICARO LANDROVER" tech="BUILT WITH WORDPRESS" backgroundImg={landrover} projectUrl='/landrover' /> */}
             
 
             </div>

@@ -21,7 +21,14 @@ const property = () => {
                 <p>Project</p>
                 <h2>Overview</h2>
                 <p>
-                   This is Pizza Restaurant made with NextJS and TailwindCSS. This application is all Front End with a modern and responsive design.
+                   Guillermo&apos;s Pizza is a responsive front-end web application built using Next.js, TypeScript, and Tailwind CSS. This project demonstrates my ability to create clean, modern, 
+                   and mobile-friendly user interfaces using a component-based architecture. The site includes a fully styled navigation bar, engaging content sections, high-quality food imagery, 
+                   and a responsive footer—designed to provide a smooth and consistent experience across all screen sizes.
+                </p>
+                <br />
+                <p>
+                    Although there is no backend functionality, this project highlights my strengths in layout design, semantic HTML, responsive styling with Tailwind, and structuring code using modern 
+                    frameworks like Next.js with TypeScript. Guillermo&apos;s Pizza is a simple yet polished example of my front-end development skills and my focus on user experience and visual design.
                 </p>
                 <button className='px-8 py-2 mt-4 mr-8'><a href="https://nextjs-restaurant-y6lmv2gch-tmorriso93.vercel.app/" target="_blank" rel="noreferrer" >Demo</a></button>
                 <button className='px-8 py-2 mt-4 mr-8'><a href="https://github.com/tmorriso93/nextjs-restaurant" target="_blank" rel="noreferrer" >Code</a></button>
