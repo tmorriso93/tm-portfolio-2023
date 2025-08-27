@@ -2,10 +2,9 @@
 // import Link from 'next/link';
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import restaurant from '../public/assets/projects/restaurant02.png'
 import wordpilotai from '../public/assets/projects/wordpilotai-saas.png';
-import landrover from '../public/assets/projects/landroversite001.png'
-import bmw from '../public/assets/projects/bmwsite001.png'
+import bmw from '../public/assets/projects/bmwsite001.png';
+import skyMarkProperties from '../public/assets/projects/sky-mark-properties001.png';
 
 
 const Projects = () => {
@@ -18,7 +17,7 @@ const Projects = () => {
  
             <ProjectItem title="WORDPILOT AI" tech="FULLSTACK APP BUILT WITH NEXTJS" backgroundImg={wordpilotai} projectUrl='/wordpilotai' />
             <ProjectItem title="POLICARO BMW" tech="BUILT WITH WORDPRESS" backgroundImg={bmw} projectUrl='/bmw' />
-            <ProjectItem title="Pizza Restaurant" tech="BUILT WITH HTML & CSS" backgroundImg={restaurant} projectUrl='/restaurant' />
+            <ProjectItem title="BUY & SELL REAL ESTATE APP" tech="FULLSTACK APP BUILT WITH NEXTJS & FIREBASE" backgroundImg={skyMarkProperties} projectUrl='/skyMarkProperties' />
             {/* <ProjectItem title="POLICARO LANDROVER" tech="BUILT WITH WORDPRESS" backgroundImg={landrover} projectUrl='/landrover' /> */}
             
 
