@@ -11,11 +11,22 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-[#db4b4b]'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-gray-600'>
-                Hello, I'm Tevin Morrison, a passionate Front End Developer hailing from Toronto, Canada. With a strong focus on crafting seamless and engaging user experiences, I specialize in building cutting-edge websites and applications using the power of React and Javascript.
-
-                In addition to my expertise, I currently manage 8 websites for popular car dealerships in Ontario, Canada. Some of these include Porsche, BMW, Land Rover, and Lexus, among others. These websites collectively generate tens of thousands of visitors per month and contribute to millions of dollars in sales each year.
-
-                As a seasoned Freelancer, I've dedicated the last 3 years to honing my skills and collaborating with a diverse range of clients, including small businesses, startups, and nonprofit organizations, to bring their digital visions to life.
+                Hello, I'm Tevin Morrison, a passionate Front End Developer based in Toronto, Canada. 
+                With over 3 years of professional experience, I specialize in building modern, high-performing 
+                websites and applications with a strong focus on seamless user experiences, using the power of React, 
+                JavaScript, and other cutting-edge technologies.
+                </p>
+                <p className='py-2 text-gray-600'>
+                Currently, I&rsquo;ve spent the past 2 years as a Web Developer at Policaro Group, where I manage 8 dealership 
+                websites for prestigious automotive brands such as Porsche, BMW, Land Rover, and Lexus. These platforms 
+                attract tens of thousands of visitors each month and play a key role in driving millions of dollars in 
+                annual sales.
+                </p>
+                <p className='py-2 text-gray-600'>
+                Beyond my work at Policaro, I&rsquo;ve also freelanced for 2 years, collaborating with small businesses, startups, 
+                and nonprofit organizations to transform their digital ideas into engaging, functional products. This mix 
+                of professional and freelance experience has sharpened my skills in crafting scalable solutions while 
+                adapting to diverse client needs.
                 </p>
                 <Link href="/#projects">
                 <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my projects</p>
